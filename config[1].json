@@ -1,0 +1,12 @@
+{
+  "name": "Speedport Proxy",
+  "version": "1.0",
+  "slug": "speedport_proxy",
+  "description": "Lokaler Proxy für Speedport Smart 4",
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "options": {},
+  "schema": {},
+  "init": false
+}
