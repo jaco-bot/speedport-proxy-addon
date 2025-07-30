@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ROUTER_URL="http://192.168.2.1"
-PASSWORD="DEIN_SPEEDPORT_PASSWORT"
+PASSWORD="jahre08752074"
 PORT=8124
 
 apk add --no-cache curl jq flask
