@@ -13,7 +13,7 @@
   "webui": "http://[HOST]:8124",
   "panel_icon": "mdi:router-wireless",
   "panel_title": "Speedport Proxy",
-  "icon": "telekom_logo.png",
+  "icon": "speedport_proxy/telekom_logo.png",
   "options": {},
   "schema": {},
   "init": false
