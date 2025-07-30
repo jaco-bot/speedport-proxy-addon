@@ -1,11 +1,18 @@
 {
   "name": "Speedport Proxy",
-  "version": "1.0",
+  "version": "1.0.0",
   "slug": "speedport_proxy",
-  "description": "Lokaler Proxy für Speedport Smart 4",
+  "description": "Lokaler Proxy für Speedport Smart 4 zur Integration mit Home Assistant",
+  "arch": ["amd64", "armv7", "aarch64"],
   "startup": "services",
   "boot": "auto",
   "host_network": true,
+  "ports": {
+    "8124/tcp": 8124
+  },
+  "webui": "http://[HOST]:8124",
+  "panel_icon": "mdi:router-wireless",
+  "panel_title": "Speedport Proxy",
   "options": {},
   "schema": {},
   "init": false
